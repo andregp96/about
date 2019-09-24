@@ -137,8 +137,7 @@ ul{
 .bar_lng{
     margin-top:5px;
     width:auto;
-    display:block;   
-    
+    display:block;     
 }
 
 .bar_block{
@@ -212,8 +211,10 @@ ul{
         margin-top:30px;
     }
 
+
     .logo{
         margin-bottom: 10px;
+        
     }
 
     h1{
@@ -232,4 +233,19 @@ ul{
         font-size: 14pt;
     }
 
+    .bar{
+        margin-left: 0px;
+        display: block;
+    }
+    
+    .bar_lng{
+        margin-top:5px;
+        width:auto;
+        display:block;     
+    }
+    
+    .bar_block{
+        width: auto;
+        padding:5px;
+    }
 }
