@@ -44,6 +44,7 @@ body{
 .picture{
     display: inline-block;
     margin: 3%;
+    margin-left: 5%;
     border-top-left-radius: 55px;
     border-bottom-right-radius: 55px;
     border: none;
@@ -62,7 +63,8 @@ body{
     display: inline-block;
     height:auto;
     vertical-align: top;
-    width: calc(80% - 300px);
+    max-width: calc(85% - 300px);
+    width: auto;
     text-align: center;
     position: relative;
 }
@@ -89,7 +91,7 @@ body{
 
 
 h1{
-    font-size: 28pt; 
+    font-size: 25pt; 
     margin: 0px;
     margin-bottom:15px;
 }
@@ -187,7 +189,7 @@ ul{
 
 
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
     .picture{
         margin-top: 5%;
         width: 200px;
