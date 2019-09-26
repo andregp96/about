@@ -119,7 +119,7 @@ ul{
 
 .logo{
     height: auto;
-    width: 50px;
+    width: 60px;
     display:inline-block;
     vertical-align:middle;
     
@@ -130,6 +130,10 @@ ul{
     margin-left:15%;
     margin-top:2%;
     transition: width 0.8s;
+}
+
+.skill_detail{
+    display:none;
 }
 
 .bar{
@@ -189,7 +193,7 @@ ul{
 
 
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
     .picture{
         margin-top: 5%;
         width: 200px;
@@ -218,11 +222,15 @@ ul{
         margin-left:10%;
         margin-top:30px;
     }
+    /* .skill_item:hover{
+        box-shadow: 1px 1px 1px 1px grey;
+        border-radius:5px;
+    } */
 
 
     .logo{
         margin-bottom: 10px;
-        
+        width:50px;
     }
 
     h1{
@@ -239,11 +247,6 @@ ul{
 
     .text{
         font-size: 14pt;
-    }
-
-    .skill_item{
-        width:90%;
-        margin-left:5%;
     }
 
     .bar{
