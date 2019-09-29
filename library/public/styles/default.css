@@ -10,7 +10,7 @@ body{
 .background{
     min-width: 500px;
     width:100vw;
-    background-image: url('hex.svg');
+    background-image: url('../images/background.svg');
     background-repeat: repeat;
     background-attachment: fixed;
     position: absolute;
