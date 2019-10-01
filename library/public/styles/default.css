@@ -38,6 +38,7 @@ body{
     background: white;
     margin:10%;
     margin-top:5%;  
+    margin-bottom: 5%;
     transition: border-radius 0.8s;
 }
 
@@ -114,6 +115,10 @@ ul{
     list-style-type: square;
     text-align:justify;
     padding-left:20px;
+}
+
+.chevron{
+    cursor: pointer;
 }
 
 .logo{
@@ -293,7 +298,7 @@ ul{
 
     .bar{
         margin-left: 0px;
-        display: block;
+        
     }
     
     .bar_lng{
