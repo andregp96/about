@@ -17,12 +17,8 @@ body{
 }
 
 .first_block{
-    width:90%;
-    margin-left:5%;
-}
-
-.js_only{
-    display:none;
+    width:100%;
+    text-align: center;
 }
 
 .content{
@@ -36,7 +32,7 @@ body{
     min-width: 400px;
     max-width:1800px;
     background: white;
-    margin:10%;
+    margin:auto;
     margin-top:5%;  
     margin-bottom: 5%;
     transition: border-radius 0.8s;
@@ -44,8 +40,8 @@ body{
 
 .picture{
     display: inline-block;
-    margin: 3%;
-    margin-left: 5%;
+    margin: 5%;
+    margin-bottom: 0px;
     border-top-left-radius: 55px;
     border-bottom-right-radius: 55px;
     border: none;
@@ -53,21 +49,16 @@ body{
     width: 300px;   
     overflow: hidden;
     box-shadow: 1px 1px 1px 1px grey;
-    transition: margin 0.8s;
+    transition: width 0.5s, height 0.5s;
+    vertical-align: middle
 }
 
 .main_title{
-    margin: 3%;
-    margin-top:8%;
-    margin-bottom:35px;
-    padding: 0px;
     display: inline-block;
-    height:auto;
-    vertical-align: top;
-    max-width: calc(85% - 300px);
-    width: auto;
-    text-align: center;
-    position: relative;
+    margin:5%;
+    margin-bottom:35px;
+    vertical-align: middle;
+    width: calc(80% - 300px);   
 }
 
 .section{
@@ -84,12 +75,16 @@ body{
 .text{
     font-size: 16pt;
     color: #323232;  
-    transition: all 0.8s;
     text-align: justify;
     margin-left:5%;
     width:90%;
 }
 
+.dark_text{
+    background: #323232;
+    color:white;
+    padding:10px;
+}
 
 h1{
     font-size: 25pt; 
@@ -98,7 +93,7 @@ h1{
 }
 
 h2{
-    font-size: 20pt;
+    font-size: 18pt;
     margin:0px;
     margin-bottom:10px;
 }
@@ -126,6 +121,14 @@ ul{
     width:50px;
     display:inline-block;
     vertical-align:middle; 
+}
+
+.contato{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    vertical-align: middle;
+    border-radius: 15px;
 }
 
 
@@ -160,8 +163,6 @@ ul{
     margin-left: auto;
     margin-right: auto;
     font-size: 12pt; 
-    background: #323232;
-    color:white;
     transition: padding 0.5s;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -186,8 +187,6 @@ ul{
     transform: rotate(180deg);
 
 }
-
-
 
 .bar{
     width:auto;
@@ -299,7 +298,7 @@ ul{
     .logo{
         margin-bottom: 10px;
         display: block;
-        margin-left: calc(52% - 50px)
+        margin-left: calc(51% - 50px)
     }
 
     h1{
