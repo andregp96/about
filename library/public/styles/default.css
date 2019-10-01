@@ -158,7 +158,6 @@ ul{
     margin-top:10px;
     background: #323232;
     color:white;
-    transition: display 0.8s;
 }
 
 .hidden_check{
@@ -273,7 +272,7 @@ ul{
         font-size: 12pt;
         text-align: center;
         margin-top:15px;
-        margin-left:20%;
+        margin-left:15%;
     }
 
     .logo{
