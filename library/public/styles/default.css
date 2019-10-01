@@ -58,7 +58,7 @@ body{
 .main_title{
     margin: 3%;
     margin-top:8%;
-    margin-bottom:2%;
+    margin-bottom:35px;
     padding: 0px;
     display: inline-block;
     height:auto;
@@ -106,7 +106,6 @@ h2{
     color: #66806D;  
 }
 
-
 li{
     margin-bottom:10px;
 }
@@ -119,21 +118,55 @@ ul{
 
 .logo{
     height: auto;
-    width: 60px;
+    width:50px;
     display:inline-block;
-    vertical-align:middle;
-    
+    vertical-align:middle; 
 }
 
+
 .skill_item{
-    width:70%;
-    margin-left:15%;
-    margin-top:2%;
+    width:50%;
+    margin-left:25%;
+    margin-top:35px;
     transition: width 0.8s;
 }
 
-.skill_detail{
+.bar:hover{
+    cursor: pointer;
+}
+
+
+.language_item{
+    width:70%;
+    margin-left:15%;
+    margin-top:2%;
+    transition: width 0.8s; 
+}
+
+.hidden_check{
+    opacity:0;
+}
+
+.description{
     display:none;
+    width:auto;
+    font-size: 12pt;
+    margin-top:10px;
+    background: #323232;
+    color:white;
+    transition: display 0.8s;
+}
+
+.hidden_check{
+    opacity:0;
+}
+
+.hidden_check:checked + .description{
+    display:block;
+    box-shadow: 1px 1px 2px 1px grey;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
 }
 
 .bar{
@@ -141,12 +174,13 @@ ul{
     display:inline-block;   
     vertical-align:middle;
     margin-left: 15px;
+    user-select: none;
 }
 
 .bar_lng{
     margin-top:5px;
     width:auto;
-    display:block;     
+    display:block;   
 }
 
 .bar_block{
@@ -170,6 +204,7 @@ ul{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px; 
 }
+
 
 .filled{
     background-color:  #66806D; 
@@ -215,22 +250,24 @@ ul{
         max-width: none;
         margin:4%;
         margin-top:2%;
-        margin-bottom:5%;
+        margin-bottom: 15px;
     }
     .skill_item{
         width:80%;
         margin-left:10%;
-        margin-top:30px;
+        margin-top:35px;
     }
-    /* .skill_item:hover{
-        box-shadow: 1px 1px 1px 1px grey;
-        border-radius:5px;
-    } */
-
+        
+    .description{
+        width:60%;
+        font-size: 12pt;
+        text-align: center;
+        margin-top:15px;
+        margin-left:20%;
+    }
 
     .logo{
         margin-bottom: 10px;
-        width:50px;
     }
 
     h1{
@@ -262,16 +299,16 @@ ul{
     
     .bar_block{
         width: auto;
-        padding:5px;
+        padding:4px;
     }
 
     .bar_block:first-child{
         width: auto;
-        padding:5px;
+        padding:4px;
     }
     
     .bar_block:last-child{
         width: auto;
-        padding:5px;
+        padding:4px;
     }
 }
