@@ -1,0 +1,96 @@
+@media (max-width: 1000px){
+    .picture{
+        margin-top: 5%;
+        width: 200px;
+        height: 200px;
+        margin-left: calc(50% - 100px);
+        margin-right: calc(50% - 100px);
+        float:none;
+    }  
+    .content{
+        border-radius: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width:90%;
+    }
+    .main_title{
+        width:92%;
+        height: auto;
+        transition: width 0.8s;
+        max-width: none;
+        margin:4%;
+        margin-top:2%;
+        margin-bottom: 15px;
+    }
+    .skill_item{
+        width:90%;
+        margin-left: 10%;
+        margin-top:35px;
+    }
+
+    .language_item{
+        display: block;
+        width: 80%;
+        margin-left:10%;
+    }
+
+
+    .hidden_check:checked ~ .description{
+        visibility: visible;
+        height: auto;
+        box-shadow: 1px 1px 2px 1px grey;
+        margin-top:10px;
+        margin-left: auto;
+        margin-right: 10%;
+        padding: 10px;
+    }
+
+    .logo{
+        margin-bottom: 10px;
+        display: block;
+        margin-left: calc(51% - 50px)
+    }
+
+    h1{
+        font-size: 20pt; 
+        margin: 0px;
+        margin-bottom:15px;
+    }
+    
+    h2{
+        font-size: 16pt;
+        margin:0px;
+        margin-bottom:10px;
+    }
+
+    .text{
+        font-size: 14pt;
+    }
+
+    .bar{
+        margin-left: 0px;
+        display: inline-block;
+        width: auto;
+    }
+    
+    .bar_lng{
+        margin-top:5px;
+        width:auto;
+        display:block;     
+    }
+    
+    .bar_block{
+        width: auto;
+        padding:4px;
+    }
+
+    .bar_block:first-child{
+        width: auto;
+        padding:4px;
+    }
+    
+    .bar_block:last-child{
+        width: auto;
+        padding:4px;
+    }
+}
