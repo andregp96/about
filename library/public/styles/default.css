@@ -112,6 +112,7 @@ ul{
     padding-left:20px;
 }
 
+
 .chevron{
     cursor: pointer;
 }
@@ -125,12 +126,12 @@ ul{
 
 .contato{
     display: inline-block;
+    margin:0px;
     margin-left: 5%;
     margin-right: 5%;
     vertical-align: middle;
     border-radius: 15px;
 }
-
 
 .skill_item{
     width:56%;
