@@ -17,7 +17,8 @@ body{
 }
 
 .first_block{
-    width:100%;
+    width:90%;
+    margin-left: 5%;
     text-align: center;
 }
 
@@ -25,8 +26,6 @@ body{
     display:block;
     border: 2px solid #daa520;
     border-radius: 5px;
-    border-top-left-radius: 55px;
-    border-bottom-right-radius: 55px;
     height:auto;
     width:80%;
     min-width: 400px;
